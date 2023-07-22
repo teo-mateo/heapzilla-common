@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Heapzilla.Common</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Heapzilla.Common</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>Teodor B</Authors>
+    <Company>Heapzilla</Company>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="AspNetCore\Mvc\ModelBinding\" />
+    <Folder Include="nuget\" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>
